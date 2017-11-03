@@ -1,0 +1,31 @@
+traceroute to zadna.org.za (129.232.249.120), 30 hops max, 60 byte packets
+ 1  172.16.0.1 (172.16.0.1)  1.286 ms  1.356 ms  3.516 ms
+ 2  r190-64-49-25.su-static.adinet.com.uy (190.64.49.25)  8.874 ms  10.516 ms  10.515 ms
+ 3  asr3cen6-be200-1607.agg.antel.net.uy (200.40.177.63)  6.432 ms  7.104 ms  9.803 ms
+ 4  ibb2cen3-be200-1607.antel.net.uy (200.40.177.62)  11.516 ms  11.519 ms  11.512 ms
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  198.32.125.78 (198.32.125.78)  178.508 ms  179.030 ms  177.407 ms
+ 9  198.32.125.115 (198.32.125.115)  176.979 ms  177.000 ms  177.096 ms
+10  be10.r0.r327.nkf.ams.nl.iptp.net (91.194.117.195)  250.903 ms  329.271 ms  329.251 ms
+11  176.56.179.138 (176.56.179.138)  330.344 ms  331.808 ms  331.080 ms
+12  core.xe-0-0-1-gp-sm-het-dce-2.za.africainx.net (41.84.15.37)  533.690 ms core.xe-0-0-0-gp-sm-het-dce-2.za.africainx.net (41.84.15.5)  462.422 ms core.xe-0-0-1-gp-sm-het-dce-2.za.africainx.net (41.84.15.37)  446.774 ms
+13  41-66-132-246-f6.hetzner-jhb-ip4-gw.africainx.net (41.66.132.246)  428.209 ms  427.359 ms  418.791 ms
+14  core-access-switch1.jnb1.host-h.net (197.189.193.1)  439.911 ms  492.118 ms  494.553 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

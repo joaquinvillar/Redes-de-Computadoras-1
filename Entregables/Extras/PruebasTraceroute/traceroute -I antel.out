@@ -1,0 +1,10 @@
+sudo traceroute -I www.antel.com.uy
+traceroute to www.antel.com.uy (190.0.136.235), 30 hops max, 60 byte packets
+ 1  172.16.0.1 (172.16.0.1)  2.995 ms  3.075 ms  3.185 ms
+ 2  r190-64-49-25.su-static.adinet.com.uy (190.64.49.25)  54.345 ms  56.541 ms  57.097 ms
+ 3  asr3cen6-be200-1607.agg.antel.net.uy (200.40.177.63)  55.580 ms  55.603 ms  55.732 ms
+ 4  ibb2cen3-be200-1603.antel.net.uy (200.40.177.58)  57.281 ms  57.293 ms  57.291 ms
+ 5  asr3cen6-beXXX-1603.antel.net.uy (200.40.177.59)  58.671 ms  59.722 ms  59.739 ms
+ 6  r190-64-44-128.su-static.adinet.com.uy (190.64.44.128)  56.496 ms  39.516 ms  39.514 ms
+ 7  r190-64-44-129.su-static.adinet.com.uy (190.64.44.129)  39.294 ms  56.778 ms  56.847 ms
+ 8  r190-0-136-235.ir-static.adinet.com.uy (190.0.136.235)  60.820 ms  60.835 ms  60.823 ms

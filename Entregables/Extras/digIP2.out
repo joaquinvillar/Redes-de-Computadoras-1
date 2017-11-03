@@ -1,0 +1,22 @@
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> @8.8.8.8 www.redhat.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6662
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.redhat.com.			IN	A
+
+;; ANSWER SECTION:
+www.redhat.com.		1943	IN	CNAME	ds-www.redhat.com.edgekey.net.
+ds-www.redhat.com.edgekey.net. 21004 IN	CNAME	ds-www.redhat.com.edgekey.net.globalredir.akadns.net.
+ds-www.redhat.com.edgekey.net.globalredir.akadns.net. 3442 IN CNAME e3396.dscx.akamaiedge.net.
+e3396.dscx.akamaiedge.net. 18	IN	A	23.208.182.79
+
+;; Query time: 47 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Aug 24 18:17:00 UYT 2017
+;; MSG SIZE  rcvd: 201

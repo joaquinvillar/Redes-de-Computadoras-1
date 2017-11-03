@@ -1,0 +1,30 @@
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> @192.42.93.30 www.redhat.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57093
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 5
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.redhat.com.			IN	A
+
+;; AUTHORITY SECTION:
+redhat.com.		172800	IN	NS	ns2.redhat.com.
+redhat.com.		172800	IN	NS	ns3.redhat.com.
+redhat.com.		172800	IN	NS	ns1.redhat.com.
+redhat.com.		172800	IN	NS	ns4.redhat.com.
+
+;; ADDITIONAL SECTION:
+ns2.redhat.com.		172800	IN	A	209.132.183.2
+ns3.redhat.com.		172800	IN	A	66.187.233.212
+ns1.redhat.com.		172800	IN	A	209.132.186.218
+ns4.redhat.com.		172800	IN	A	209.132.188.218
+
+;; Query time: 587 msec
+;; SERVER: 192.42.93.30#53(192.42.93.30)
+;; WHEN: Mon Aug 21 16:31:08 UYT 2017
+;; MSG SIZE  rcvd: 179
+
